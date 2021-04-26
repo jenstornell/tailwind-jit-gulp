@@ -1,0 +1,9 @@
+npm init -y // Package json auto accepting all options
+npm install -D tailwindcss autoprefixer postcss-cli
+npx tailwindcss init -p
+Skapa html fil
+Lägg till directives i tailwind.css
+npm -D install @tailwindcss/jit
+I postcss.config.js sätt '@tailwindcss/jit'
+purge: ["./layouts/**/*.html"],
+"build": "postcss ./tailwind.css -o ./styles.css -w"

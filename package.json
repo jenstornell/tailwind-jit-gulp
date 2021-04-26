@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./assets/css/src/tailwind.css -o ./assets/css/dist/tailwind.purged.css -w"
+    "build": "postcss ./assets/css/src/tailwind.css -o ./assets/css/dist/tailwind.purged.css -w --verbose"
   },
   "repository": {
     "type": "git",

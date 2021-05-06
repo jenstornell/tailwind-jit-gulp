@@ -1,6 +1,6 @@
 npm init -y // Package json auto accepting all options
-npm install -D tailwindcss autoprefixer postcss-cli
-npx tailwindcss init -p
+npm install -D tailwindcss autoprefixer postcss-cli // -D betyder save dev
+npx tailwindcss init -p // -p lägger till i path
 Skapa html fil
 Lägg till directives i tailwind.css
 npm -D install @tailwindcss/jit
